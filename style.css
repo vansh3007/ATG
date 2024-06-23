@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+height: 72px;
+
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 4.195804195804196vh;
+    width:  30vh;
+    position:absolute;
+    top: 24px;
+    left: 72px; 
+    background-image: url(/whole.png);
+    background-size: cover;
+}
+
+#search{
+    height: 42px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    color: #5C5C5C;
+
+    border-radius: 21px;
+    position:absolute;
+    top: 16px;
+    left: 500px;
+}
+#search-logo{
+    position: relative;
+    right:20px;
+}
+#free{
+    color: blue;
+}
+
+#account{
+    height:21px;
+    width:200px;
+    position:absolute;
+    top: 27px;
+    left: 1100px;
+    font-family: IBM Plex Sans;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+
+#screen{
+    width: 100%;
+    height: 440px;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/890ddcd1c2ce5ec_1903x517.png);
+    background-size: cover;
+}
+
+#CE{
+position:absolute;
+width: 378px;
+height: 47px;
+top: 358px;
+left: 200px;
+color: #FFFFFF;
+font-family: IBM Plex Sans;
+font-size: 36px;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+#follow{
+    position:absolute;
+    width: 327px;
+height: 23px;
+top: 409px;
+left: 200px;
+font-family: IBM Plex Sans;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+
+}
+
+#sections{
+    display: flex;
+    width: 358px;
+height: 21px;
+position: absolute;
+top: 559px;
+left: 200px;
+justify-content: space-around;
+align-items: center;
+
+}
+
+#screen-down{
+    display: flex;
+}
+#write-post{
+    width: 133px;
+height: 36px;
+position:absolute;
+top: 552px;
+left: 966px;
+border-radius: 4px;
+background: #EDEEF0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#join-group{
+    width: 125px;
+height: 36px;
+position: absolute;
+top: 552px;
+left: 1115px;
+border-radius: 4px;
+background: #2F6CE5;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+
+}
+#line{
+    width: 1040px;
+    height: 1px;
+    position: absolute;
+top: 600px;
+left: 210px;
+border: 1px solid #E0E0E0
+}
+#dark-line{
+width: 93px;
+border: 1px solid #000000
+
+}
+
+#card1{
+width: 692px;
+height: 472px;
+position: absolute;
+top: 628px;
+left: 200px;
+border-radius: 4px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+}
+
+#card2{
+    width: 692px;
+height: 472px;
+position: absolute;
+top: 1116px;
+left: 200px;
+border-radius: 4px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+
+}
+#heading1,#heading2{
+width: 500px;
+height: 60px;
+color: #000000;
+font-family: IBM Plex Sans;
+font-size: 22px;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.card-inner{
+    position: absolute;
+    top: 230px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+}
+.heading,.card-footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.share{
+    position: absolute;
+    right: 10px;
+}
+
+.view{
+    position: absolute;
+    right: 90px;
+}
+
+.card-footer p{
+    position: absolute;
+    bottom: 23px;
+    left: 60px;
+}
+
+.heading img{
+    width: 28px;
+height: 28px;
+position: absolute;
+right: 2px;
+
+padding: 0px, 0px, 0px, 0px;
+
+}
+
+#side-message{
+    width: 243px;
+height: 32px;
+position: absolute;
+top: 717px;
+left: 997px;
+display: flex;
+font-family: IBM Plex Sans;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+#side-message img{
+    width: 16px;
+height: 16px;
+top: 718px;
+left: 997px;
+opacity: 0.5px;
+
+}
+
+#line3{
+    width: 243px;
+    top: 685px;
+    position: absolute;
+    left: 997px;
+    border: 0.4px solid #B8B8B8
+}
+
+#loc-sym{
+    width: 18px;
+height: 18px;
+position: absolute;
+top: 656px;
+left: 997px;
+
+}
+
+#place{
+    width: 77px;
+height: 18px;
+position: absolute;
+top: 656px;
+left: 1019px;
+font-family: IBM Plex Sans;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#edit{
+    width: 20px;
+height: 20px;
+position: absolute;
+top: 655px;
+left: 1220px;
+
+}
+
+#card3{
+    width: 692px;
+height: 490px;
+position: absolute;
+top: 1604px;
+left: 200px;
+border-radius: 4px;
+border: 1px solid #E0E0E0;
+background: #FFFFFF;
+
+}
+
+#view1{
+    position: absolute;
+    bottom: 0px;
+}
+
+#calender{
+    width: 20px;
+height: 20px;
+position: absolute;
+top: 90px;
+left: 0px;
+}
+#date{
+    width: 142px;
+height: 20px;
+position: absolute;
+top: 90px;
+left: 22px;
+font-family: IBM Plex Sans;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#loc-logo{
+    width: 20px;
+height: 20px;
+position: absolute;
+top: 90px;
+left: 200px;
+}
+
+#loc{
+    width: 128px;
+height: 20px;
+position: absolute;
+top: 90px;
+left: 220px;
+font-family: IBM Plex Sans;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#img2{
+    width: 30px;
+height: 30px;
+position: absolute;
+right: 2px;
+padding: 4.67px, 0px, 4.67px, 0px;
+background: #edeef0c4;
+border-radius: 5px;
+background-image: url(/Group\ 3.png);
+}
+
+#view{
+    width: 652px;
+height: 38px;
+position: absolute;
+left: 10px;
+top: 120px;
+border-radius: 8px;
+border: 0.7px solid #A9AEB8;
+display: flex;
+justify-content: center;
+align-items: center;
+color:#E56135;
+;
+}
+
+#toggle{
+    width: 160px;
+height: 102px;
+position: absolute;
+right: 0px;
+bottom: 50px;
+border-radius: 4px;
+background: #FFFFFF;
+box-shadow: 0px 0px 2px 0px #00000014;
+padding-left: 30px;
+padding-top: 10px;
+text-align: left;
+box-shadow: 0px 2px 8px 0px #00000029;
+
+}
+
+#card3-img{
+    width: 48px;
+height: 48px;
+border-radius: 24px;
+
+    position: absolute;
+    left:0px;
+    bottom: 0px; 
+}
+#card3-name{
+    position: absolute;
+    left:60px;
+    bottom: 0px; 
+}
+#share1{
+    width: 42px;
+height: 36px;
+position: absolute;
+right:0px;
+bottom: 0px; 
+border-radius: 2px;
+}
+
+#view1{
+    width: 95px;
+height: 18px;
+position: absolute;
+right:60px;
+bottom: 10px; 
+
+}
+
+#card4{
+width: 692px;
+height: 269px;
+position: absolute;
+top: 270px;
+left: 1px;
+right: 0px;
+border-radius: 4px;
+border: 1px solid #E0E0E0;
+
+}
+
+#card-inner1{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+}
+
+#vector{
+    width: 20px;
+height: 20px;
+position: absolute;
+bottom:150px;
+left: 10px;
+}
+
+#ltd{
+    width: 250px;
+height: 20px;
+position: absolute;
+bottom:150px;
+left: 40px;
+}
+
+#loc-logo2{
+    width: 20px;
+height: 20px;
+position: absolute;
+bottom:150px;
+left: 300px;
+}
+
+#loc2{
+    width: 185px;
+height: 20px;
+position: absolute;
+bottom:150px;
+left: 320px;
+
+}
+
+#apply{
+width: 650px;
+height: 36px;
+position: absolute;
+bottom:100px;
+left: 20px;
+border-radius: 10px;
+border: 0.7px solid #A9AEB8;
+color: #02B875;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#heading3{
+font-family: IBM Plex Sans;
+font-size: 22px;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#card4-name{
+width: 104px;
+height: 24px;
+position: absolute;
+bottom:0px;
+left: 60px;
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#share2{
+    width: 42px;
+height: 36px;
+position: absolute;
+bottom:0px;
+right: 0px;
+border-radius: 2px
+
+}
+
+#view2{
+    width: 95px;
+height: 18px;
+position: absolute;
+bottom:0px;
+right: 60px;
+
+}
